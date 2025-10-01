@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StreamPlay-Pro Version 2 </title>
+    <!-- Link to CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+<body>
+    <div class="colorful-bg"></div>
+    <div class="shine" id="shine"></div>
+    <canvas id="stars"></canvas>
+    <div class="custom-cursor" id="cursor"></div>
+
+    <main>
+        <section class="hero">
+            <div class="logo-container">
+                <div class="logo-particles" id="particles"></div>
+                <div class="logo-circle circle-1"></div>
+                <div class="logo-circle circle-2"></div>
+                <div class="logo-circle circle-3"></div>
+                <div class="logo-glow"></div>
+                <h1 class="logo">StreamPlay</h1>
+            </div>
+            
+            <p class="tagline">Thanks for using  streamPlay-Pro version 2</p>
+
+            <div class="thank-you" id="thank-you">
+                <span id="thank-you-text"></span><span class="typing-cursor" id="cursor-text">|</span>
+            </div>
+             <br> <a href="https://stream-play-pro2.edgeone.app/" class="get-started-btn">Get Started Now <i class="fas fa-external-link-alt"></i></a>
+
+            <button class="cta-button pulse" onclick="document.querySelector('#features').scrollIntoView({behavior: 'smooth'})">Explore Our Work</button>
+            
+            <div class="social-icons">
+                <div class="social-icon"><i class="fab fa-facebook-f"></i></div>
+                <div class="social-icon"><i class="fab fa-linkedin-in"></i></div>
+                <div class="social-icon"><i class="fab fa-instagram"></i></div>
+                <div class="social-icon"><i class="fab fa-twitter"></i></div>
+            </div>
+        </section>
+
+        <section id="features" class="section">
+            <h2>Features</h2>
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <i class="fas fa-play-circle"></i>
+                    <h3>Seamless Streaming</h3>
+                    <p>Stream high-quality media effortlessly across devices without any hassle.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <i class="fas fa-users"></i>
+                    <h3>Collaborative Sharing</h3>
+                    <p>Foster interactions and share content seamlessly with global audiences.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-mobile-alt"></i>
+                    <h3>Mobile Optimized</h3>
+                    <p>Access and manage your streams on the go with responsive design.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>Secure Playback</h3>
+                    <p>Ensure privacy and security for all your media interactions.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-bolt"></i>
+                    <h3>Lightning Fast</h3>
+                    <p>Experience zero-lag performance with optimized loading times.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <h2>About Us</h2>
+            <div class="about-text">
+                <p>StreamPlay Pro is an innovative platform designed to revolutionize how you interact with media. Founded in 1st of October 2025, our team of passionate developers and designers has worked tirelessly to create a user-friendly experience that adapts to your needs.</p>
+                <p>From broadcasting live events to preserving precious memories, StreamPlay is your all-in-one solution for the modern digital world.</p>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <h2>Contact</h2>
+            <div class="about-text">
+                <p>Ready to get started? Reach out to us at <a href="mailto:ayomichael102@gmail.com" style="color: #feca57;">ayomichael102@gmail.com</a> or drop your complaints and suggestions about the app in the <strong>Contact Us</strong> form after creating an account on <em>StreamPlay-Pro</em>.
+</p> follow us on our social media for more updates.</p>
+            </div>
+        </section>
+    </main>
+ <!-- Link to JavaScript -->
+    <script src="script.js"></script>
+    </body>
+</html>
